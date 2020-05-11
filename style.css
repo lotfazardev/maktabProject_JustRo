@@ -1,12 +1,31 @@
+/* global defs */
 body{
     direction: rtl;
     text-align: right;
+}
+.no-padding{
+    padding: 0 !important;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs{
+    position: absolute;
+}
+.primary-btns{
+    border-radius: 20px;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    background-image: linear-gradient(to top, #e35325, #ff8a65);
+}
+.primary-btns *{
+    color: white !important;
 }
 /* bootstrap customize */
 .navbar{
     justify-content: right;
     box-shadow: -2.5px 4.3px 15px 0 #e0e0e0;
     background-color: #ffffff;
+    z-index: 1;
 }
 .navbar-toggler{
     border: none;
@@ -28,7 +47,7 @@ button:focus{
     outline: none;
     box-shadow: none;
 }
-/* nav section def */
+/* nav section defs */
 #nav-brand{
     color: #008062;
 }
@@ -38,12 +57,26 @@ button:focus{
 #nav-search button i{
     color: #0BAD88;
 }
-.primary-btns{
-    border-radius: 20px;
-    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
-    background-image: linear-gradient(to top, #e35325, #ff8a65);
+#justro-logo-layout{
+    position: relative;
 }
-.primary-btns *{
-    color: white !important;
+#justro-logo-bg{
+    height: 192px;
+    position: absolute;
+    top: 0px;
+    right: -125px;
+    z-index: -1;
 }
-
+#justro-logo{
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 3rem;
+}
+#justro-logo img{
+    width: 72px;
+    height: 72px;
+}
+#justro-logo span{
+    font-size: 24px;
+    color: #007f62;
+}
