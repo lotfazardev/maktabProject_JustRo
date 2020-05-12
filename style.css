@@ -162,3 +162,19 @@ button:focus{
     background-color: #ff7043;
     margin: 0 6px;
 }
+/* wave1 */
+#wave1-layout{
+    margin-top: 54px;
+    width: 100%;
+    height: 142px;
+    background-image: url("./assets/011_bg_wave.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* mobileShow-layout */
+#mobileShow-layout{
+    background-color: red;
+    height: 100px !important;
+    margin: 0px !important;
+}
