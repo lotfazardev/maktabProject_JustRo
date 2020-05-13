@@ -178,3 +178,45 @@ button:focus{
     height: 100px !important;
     margin: 0px !important;
 }
+#col-icons-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+}
+.icons-border{
+    width: 74px;
+    min-width: 74px;
+    height: 74px;
+    min-height: 74px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,166,128);
+    background: linear-gradient(45deg, rgba(0,166,128,1) 0%, rgba(0,244,189,1) 100%);
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.icons-border div{
+    width: 72px;
+    min-width: 72px;
+    height: 72px;
+    min-height: 72px;
+    border-radius: 36px;
+    background-color: white;
+    padding: 20%;
+}
+.icons-border div svg g {
+    fill: url(#MyGradient);
+}
+.selected-icon{
+    background: rgb(244,103,57);
+    background: linear-gradient(45deg, rgba(244,103,57,1) 0%, rgba(255,159,129,1) 100%);
+}
+.selected-icon div{
+    background-color: transparent;
+}
+.selected-icon div svg g {
+    fill: #fff;
+}
