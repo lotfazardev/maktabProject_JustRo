@@ -92,9 +92,18 @@ body{
     border-radius: 20px;
     box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
     background-image: linear-gradient(to top, #e35325, #ff8a65);
+    color: white;
 }
 .primary-btns *{
     color: white !important;
+}
+.sec-btns button{
+    border-radius: 25px;
+    box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+    background-image: linear-gradient(to top, #00a680, #00f4bd);
+    border: none;
+    color: white;
+    padding: 2.5% 5%;
 }
 .flex-c-sb{
     display: flex;
@@ -107,9 +116,25 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.perfect-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.mobile-info-divs h3{
+    letter-spacing: -0.75px;
+    text-align: center;
+    color: #007f62;
+}
+.mobile-info-divs span{
+    text-align: justify;
+    display:block;
+    color: #000000;
+    padding: 5% 10%;
 }
 /* bootstrap customize */
 .navbar{
@@ -414,4 +439,41 @@ button:focus{
     padding: 5px 10px; 
     border-radius: 5px;
     margin-top: 10px;
+}
+/* download justro section */
+.download-justro span{
+    text-align: center;
+}
+#download-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#download-form input{
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: solid 1px #eeeeee;
+    background-color: #fafafa;
+    padding: 2.5% 5%;
+    text-align: left;
+}
+#download-form input:focus{
+    box-shadow: none;
+    outline: none;
+}
+#download-form input::placeholder{
+    text-align: center;
+}
+#download-form button{
+    border: none;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+    padding: 2.5% 15%;
+}
+.logos{
+    width: 23px;
+    height: 24px;
 }
