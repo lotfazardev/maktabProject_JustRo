@@ -136,6 +136,9 @@ body{
     color: #000000;
     padding: 5% 10%;
 }
+.full-height{
+    height: 100%;
+}
 /* bootstrap customize */
 .navbar{
     justify-content: right;
@@ -476,4 +479,35 @@ button:focus{
 .logos{
     width: 23px;
     height: 24px;
+}
+/* ready for travel */
+#ready-to-travel{
+    height: 350px;
+    position: relative;
+}
+#ready-to-travel-bg{
+    height: 350px;
+    background-color: #003025;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+#ready-to-travel-bg img{
+    opacity: 25%;
+}
+#ready-to-travel-info *{
+    color: white;
+}
+#ready-to-travel-info span{
+    text-align: justify;
+    display:block;
+    padding: 0 15px;
+}
+#ready-to-travel-info button{
+    border: none;
+    padding: 2.5% 5%;
+}
+#ready-to-travel-info button img{
+    padding: 2.5% 1%;
 }
