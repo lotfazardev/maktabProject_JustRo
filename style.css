@@ -559,3 +559,60 @@ button:focus{
 #email-entery{
     background-color: #e1fff8;
 }
+/* footer */
+#footer-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 65%, rgba(225,255,248,1) 100%);
+}
+#footer{
+    height: 386px;
+    position: relative;
+    background-image: url("./assets/025_footer_Bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(100% + 650px) center; 
+}
+#footer-contents-layout{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+}
+.footer-icons{
+    width: 64px;
+    max-width: 64px;
+    height: 64px;
+    max-height: 64px;
+    border-radius: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blue-footer-icon{
+    background: rgb(36,184,246);
+    background: linear-gradient(0deg, rgba(36,184,246,1) 0%, rgba(58,219,250,1) 100%);
+}
+.pink-footer-icon{
+    background: rgb(237,63,125);
+    background: linear-gradient(0deg, rgba(237,63,125,1) 0%, rgba(234,96,179,1) 100%);
+}
+#footer-links ul{
+    list-style-type: circle;
+    width: 100%;
+}
+#footer-links ul li{
+    color: white;
+    margin: 0 25px;
+    white-space: nowrap;
+}
+#contactUs-layout *{
+    color: white;
+}
+#contactUs-layout div i{
+    font-size: 25px;
+    margin-right: 10px;
+}
