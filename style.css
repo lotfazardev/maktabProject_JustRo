@@ -52,6 +52,9 @@ body{
 .primary-btns *{
     color: white !important;
 }
+.primary-btns:hover{
+    cursor: pointer;
+}
 .sec-btns button{
     border-radius: 25px;
     box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
@@ -126,7 +129,7 @@ button:focus{
     z-index: -1;
 }
 #justro-logo{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: inline-block;
     margin-right: 3rem;
 }
@@ -137,6 +140,33 @@ button:focus{
 #justro-logo span{
     font-size: 24px;
     color: #007f62;
+}
+/* for desktop */
+#desktop-navbar ul{
+    list-style-type: none;
+}
+#desktop-navbar li{
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+#desktop-navbar li a{
+    font-size: 16px;
+    font-weight: 300;
+    color: #333333;
+}
+#desktop-navbar-btn{
+    padding: 0.25rem 1.5rem;
+    border: none;
+    box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+}
+#desktop-navbar-btn a:hover{
+    text-decoration: none;
+}
+#desktop-navbar li a:hover{
+    text-decoration: none;
 }
 /* better row layout */
 #better-row-layout{

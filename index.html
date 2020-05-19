@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light d-lg-none">
         <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -43,6 +43,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">همکاری با ما</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">تماس با ما</a>
+                </li>
                 <li class="primary-btns" class="nav-item">
                     <a class="nav-link" href="#">دانلود</a>
                 </li>
@@ -50,16 +53,40 @@
         </div>
     </nav>
     <div class="container-fluid">
-        <div class="row">
-            <div id="justro-logo-layout" class="col-8 no-padding">
-                <img id="justro-logo-bg" src="./assets/009_logo_Bg.svg" alt="logo_Bg">
-                <div id="justro-logo">
-                    <img src="./assets/camel-silhouette.svg" alt="logo">
-                    <span>جاسترو</span>
+        <div class="row d-lg-flex justify-content-lg-center align-items-lg-center">
+            <div class="col-12 col-lg-9 no-padding">
+                <div id="justro-logo-layout" class="col-6 no-padding col-lg-12 d-lg-flex justify-content-lg-between align-items-lg-center" >
+                    <img id="justro-logo-bg" src="./assets/009_logo_Bg.svg" alt="logo_Bg">
+                    <div class="col-lg-3 no-padding mt-5 mt-lg-2" id="justro-logo" >
+                        <img src="./assets/camel-silhouette.svg" alt="logo">
+                        <span>جاسترو</span>
+                    </div>
+                    <div id="desktop-navbar" class="col-lg-8 no-padding d-none d-lg-flex justify-content-lg-between align-items-lg-center mt-lg-2" >
+                        <ul class="col-lg-9 no-padding d-lg-flex justify-content-lg-between align-items-lg-center mt-auto mb-auto">
+                            <li>
+                                <a href="#">صفحه اصلی</a>
+                            </li>
+                            <li>
+                                <a href="#">ایده ها</a>
+                            </li>
+                            <li>
+                                <a href="#">ویژگی ها</a>
+                            </li>
+                            <li>
+                                <a href="#">درباره ما</a>
+                            </li>
+                            <li>
+                                <a href="#">همکاری با ما</a>
+                            </li>
+                            <li>
+                                <a href="#">تماس با ما</a>
+                            </li>
+                        </ul>
+                        <button id="desktop-navbar-btn" class="primary-btns col-lg-2">
+                            <a href="#">دانلود</a>
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <!-- for lg device -->
             </div>
         </div>
         <div id="better-row-layout" class="row">
