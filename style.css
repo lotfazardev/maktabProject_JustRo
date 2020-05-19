@@ -170,12 +170,12 @@ button:focus{
 }
 /* better row layout */
 #better-row-layout{
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
-#better-col-layout__description div{
+.better-col-layout__description div{
     padding: 0 10%;
 }
-#better-col-layout__description h3{
+.better-col-layout__description h3{
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -183,13 +183,13 @@ button:focus{
     letter-spacing: normal;
     color: #007f62;
 }
-#better-col-layout__description hr{
+.better-col-layout__description hr{
     width: 5rem;
     display: inline-block;
     text-align: left;
     border-top: 3px solid #00a680;
 }
-#better-col-layout__description span{
+.better-col-layout__description span{
     font-size: 1rem;
     font-stretch: normal;
     font-style: normal;
@@ -246,6 +246,21 @@ button:focus{
     border-radius: 6px;
     background-color: #ff7043;
     margin: 0 6px;
+}
+#desktop-better-layout{
+    position: relative;
+}
+#desktop-better-bg{
+    height: 75%;
+    position: absolute;
+    bottom: 2rem;
+    left: -2rem;
+    z-index: -1;
+}
+#desktop-bird{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 /* wave1 */
 #wave1-layout{
