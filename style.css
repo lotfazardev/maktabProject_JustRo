@@ -271,15 +271,22 @@ button:focus{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: absolute;
+}
+.margin-top-10{
+    margin-top: 10rem;
 }
 /* mobileShow-layout */
-#mobileShow-layout{
-    background-color: red;
-    height: 100px !important;
-    margin: 0px !important;
-}
 #col-icons-layout{
     overflow-x: scroll;
+    position: relative;
+}
+#icon-line-layout{
+    width: 2px;
+    position: absolute;
+    z-index: -1;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(100,202,163,1) 5%, rgba(100,202,163,1) 95%, rgba(255,255,255,1) 100%);
 }
 .icons-border{
     width: 74px;
@@ -404,6 +411,25 @@ button:focus{
     padding: 5px 10px; 
     border-radius: 5px;
     margin-top: 10px;
+}
+#web-hotel-layout h3{
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #007f62;
+}
+#web-hotel-layout span{
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
 }
 /* download justro section */
 #download-justro span{
@@ -579,4 +605,13 @@ button:focus{
 #contactUs-layout div i{
     font-size: 25px;
     margin-right: 10px;
+}
+/* media qurey */
+@media only screen and (min-width: 992px) {
+    #wave1-layout{
+        height: 272px;
+    }
+    .margin-top-10{
+        margin-top: 13rem;
+    }
 }
