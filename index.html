@@ -462,7 +462,8 @@
                     <div id="web-hotel-layout" class="d-none d-lg-flex flex-lg-column">
                         <h3>هتل‌ها، جستجو و رزرو کنید</h3>
                         <br>
-                        <span class="no-padding">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                        <span class="no-padding">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                            از طراحان گرافیک
                             است.
                             چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
                             تکنولوژی
@@ -476,41 +477,51 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-                <img class="col-6" src="./assets/021_dlbox_icon_download.svg" alt="">
-            </div>
-            <div class="col-12 no-padding">
-                <div class="mobile-info-divs mt-5 download-justro">
-                    <h3>دانلود اپلیکیشن جاسترو</h3>
-                    <span>با وارد کردن شماره همراه خود در کارد پایین
-                        لینک دانلود اپلیکیشن رو دریافت کنید</span>
+        <div class="row mt-5 d-lg-flex justify-content-lg-center align-items-lg-center">
+            <div id="download-box-layout" class="col-12 col-lg-9 no-padding d-lg-flex justify-content-lg-around align-items-lg-center">
+                <div class="col-lg-12 no-padding d-none d-lg-flex" id="download-shadow-box">
+
                 </div>
-                <form class="form" action="/download" method="POST">
-                    <input type="number" name="phoneNum" placeholder="09XX XXX XXXX (فرمت">
-                    <button class="primary-btns mt-4" type="submit">دانلود</button>
-                </form>
-                <div class="mobile-info-divs mt-2 download-justro">
-                    <span>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو
-                        دانلود کنید</span>
+                <div class="col-12 col-lg-2 d-flex flex-column justify-content-center align-items-center">
+                    <img class="col-6 col-lg-12" src="./assets/021_dlbox_icon_download.svg" alt="">
+                    <span class="d-none d-lg-flex">Version :  2.3.04</span>
                 </div>
-                <div class="d-flex flex-column align-items-center sec-btns">
-                    <button class="col-6 d-flex flex-row align-items-center justify-content-center">
-                        <span>
-                            <img class="logos" src="./assets/google-play.svg" alt="">
-                            Google play
-                        </span>
-                    </button>
-                    <button class="col-6 mt-3">
-                        <img class="logos" src="./assets/bazzar.ico" alt="">
-                        کافه بازار
-                    </button>
-                    <button class="col-6 mt-3">
-                        <span>
-                            <img class="logos" src="./assets/direct-download.svg" alt="">
-                            دانلود مستقیم
-                        </span>
-                    </button>
+                <div class="col-12 col-lg-9 no-padding">
+                    <div class="mobile-info-divs mt-5 mt-lg-0 download-justro d-flex flex-column justify-content-center align-items-center">
+                        <h3>دانلود اپلیکیشن جاسترو</h3>
+                        <span>با وارد کردن شماره همراه خود در کارد پایین
+                            لینک دانلود اپلیکیشن رو دریافت کنید</span>
+                    </div>
+                    <form class="form d-lg-none" action="/download" method="POST">
+                        <input type="number" name="phoneNum" placeholder="09XX XXX XXXX (فرمت">
+                        <button class="primary-btns mt-4 mt-lg-0" type="submit">دانلود</button>
+                    </form>
+                    <form class="web-form d-none d-lg-flex col-lg-7 no-padding mr-auto ml-auto" action="/download" method="POST">
+                        <input class="col-lg-10" type="number" name="phoneNum" placeholder="09" value="09" maxlength="12">
+                        <button class="col-lg-3 primary-btns mt-4 mt-lg-0" type="submit">دانلود</button>
+                    </form>
+                    <div class="mobile-info-divs mt-2 mt-lg-0 download-justro d-flex flex-column justify-content-center align-items-center">
+                        <span>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو
+                            دانلود کنید</span>
+                    </div>
+                    <div id="download-btns" class="d-flex flex-column align-items-center sec-btns flex-lg-row justify-content-lg-center">
+                        <button class="col-6 col-lg-3 d-flex flex-row align-items-center justify-content-center">
+                            <span>
+                                <img class="logos" src="./assets/google-play.svg" alt="">
+                                Google play
+                            </span>
+                        </button>
+                        <button class="col-6 col-lg-3 mt-3 mt-lg-0">
+                            <img class="logos" src="./assets/bazzar.ico" alt="">
+                            کافه بازار
+                        </button>
+                        <button class="col-6 col-lg-3 mt-3 mt-lg-0">
+                            <span>
+                                <img class="logos" src="./assets/direct-download.svg" alt="">
+                                دانلود مستقیم
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

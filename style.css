@@ -614,4 +614,38 @@ button:focus{
     .margin-top-10{
         margin-top: 13rem;
     }
+    #download-btns button{
+        padding: 10px;
+        margin: 0 15px;
+        box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+        background-image: linear-gradient(to top, #00a680, #00f4bd);
+        cursor: pointer;
+    }
+    #download-box-layout{
+        position: relative;
+    }
+    #download-shadow-box{
+        height: 93%;
+        position: absolute;
+        top: 0;
+        box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+    }
+    .web-form{
+        position: relative;
+        height: 6vh;
+    }
+    .web-form button{
+        height: 100%;
+        position: absolute;
+        left: 0;
+        border: none;
+        border-radius: 25px;
+    }
+    .web-form input{
+        border-radius: 25px;
+        border: solid 1px #eeeeee;
+        background-color: #fafafa;
+        text-align: left;
+        padding-left: 10%;
+    }
 }
