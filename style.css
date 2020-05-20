@@ -614,6 +614,16 @@ button:focus{
     .margin-top-10{
         margin-top: 13rem;
     }
+    #download-row-layout{
+        position: relative;
+    }
+    #wave2-layout{
+        position: absolute;
+        background-image: url('./assets/019_dlbox_bg1.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
     #download-btns button{
         padding: 10px;
         margin: 0 15px;
