@@ -650,6 +650,7 @@ button:focus{
         left: 0;
         border: none;
         border-radius: 25px;
+        
     }
     .web-form input{
         border-radius: 25px;
@@ -703,5 +704,8 @@ button:focus{
         padding: 15px 25px;
         border-radius: 50px;
         border: none;
+    }
+    #email-entery{
+        background-color: transparent;
     }
 }

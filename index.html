@@ -649,17 +649,27 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div id="email-entery" class="col-12 no-padding">
-                <div class="mobile-info-divs mt-3">
-                    <span id="email-description">ایده های جدید رو هفتگی دریافت کن
-                        آدرس ایمیل خودتون رو در کادر زیر وارد
-                        و گزینه ثبت ایمیل رو بزنید.</span>
+        <div class="row mt-5 d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+            <div class="col-12 col-lg-8 no-padding">
+                <div id="email-entery" class="col-12 no-padding">
+                    <div class="mobile-info-divs mt-3">
+                        <span id="email-description">ایده های جدید رو هفتگی دریافت کن
+                            آدرس ایمیل خودتون رو در کادر زیر وارد
+                            و گزینه ثبت ایمیل رو بزنید.</span>
+                    </div>
+                    <form class="form d-lg-none" action="/emailsend" method="POST">
+                        <input type="email" name="email" placeholder="ایمیل خود را وارد کنید ...">
+                        <button class="primary-btns mt-4" type="submit">ثبت ایمیل</button>
+                    </form>
+                    <form class="web-form d-none d-lg-flex col-lg-7 no-padding mr-auto ml-auto" action="/download"
+                        method="POST">
+                        <input class="col-lg-10" type="number" name="phoneNum" placeholder="ایمیل خود را وارد کنید ..."
+                            maxlength="12" style="text-align: right;
+                            box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);">
+                        <button class="col-lg-3 primary-btns mt-4 mt-lg-0" type="submit" style="
+                        box-shadow: 0px 4px 20px 0 rgba(0, 88, 67, 0.17);">ثبت ایمیل</button>
+                    </form>
                 </div>
-                <form class="form" action="/emailsend" method="POST">
-                    <input type="email" name="email" placeholder="ایمیل خود را وارد کنید ...">
-                    <button class="primary-btns mt-4" type="submit">ثبت ایمیل</button>
-                </form>
             </div>
         </div>
         <div id="footer-container" class="row pt-2">
