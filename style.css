@@ -708,4 +708,25 @@ button:focus{
     #email-entery{
         background-color: transparent;
     }
+    #desktop-footer-lg-layout{
+        height: 278px;
+        background-image: url(./assets/025_footer_Bg_web.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #desktop-footer-layout *{
+        color: white;
+    }
+    #desktop-footer-layout div{
+        height: 80%;
+    }
+    #desktop-footer-layout div ul{
+        list-style-type: circle;
+    }
+    #desktop-footer-layout div ul li{
+        margin-bottom: 10px;
+    }
+    #web-footer-links{
+        
+    }
 }
