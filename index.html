@@ -479,14 +479,16 @@
         </div>
         <div id="download-row-layout" class="row mt-5 d-lg-flex justify-content-lg-center align-items-lg-center">
             <div id="wave2-layout" class="col-12 full-height no-padding d-none d-lg-flex"></div>
-            <div id="download-box-layout" class="col-12 col-lg-9 no-padding d-lg-flex justify-content-lg-around align-items-lg-center">
+            <div id="download-box-layout"
+                class="col-12 col-lg-9 no-padding d-lg-flex justify-content-lg-around align-items-lg-center">
                 <div class="col-lg-12 no-padding d-none d-lg-flex" id="download-shadow-box"></div>
                 <div class="col-12 col-lg-2 d-flex flex-column justify-content-center align-items-center">
                     <img class="col-6 col-lg-12" src="./assets/021_dlbox_icon_download.svg" alt="">
-                    <span class="d-none d-lg-flex">Version :  2.3.04</span>
+                    <span class="d-none d-lg-flex">Version : 2.3.04</span>
                 </div>
                 <div class="col-12 col-lg-9 no-padding">
-                    <div class="mobile-info-divs mt-5 mt-lg-0 download-justro d-flex flex-column justify-content-center align-items-center">
+                    <div
+                        class="mobile-info-divs mt-5 mt-lg-0 download-justro d-flex flex-column justify-content-center align-items-center">
                         <h3>دانلود اپلیکیشن جاسترو</h3>
                         <span>با وارد کردن شماره همراه خود در کارد پایین
                             لینک دانلود اپلیکیشن رو دریافت کنید</span>
@@ -495,15 +497,19 @@
                         <input type="number" name="phoneNum" placeholder="09XX XXX XXXX (فرمت">
                         <button class="primary-btns mt-4 mt-lg-0" type="submit">دانلود</button>
                     </form>
-                    <form class="web-form d-none d-lg-flex col-lg-7 no-padding mr-auto ml-auto" action="/download" method="POST">
-                        <input class="col-lg-10" type="number" name="phoneNum" placeholder="09" value="09" maxlength="12">
+                    <form class="web-form d-none d-lg-flex col-lg-7 no-padding mr-auto ml-auto" action="/download"
+                        method="POST">
+                        <input class="col-lg-10" type="number" name="phoneNum" placeholder="09" value="09"
+                            maxlength="12">
                         <button class="col-lg-3 primary-btns mt-4 mt-lg-0" type="submit">دانلود</button>
                     </form>
-                    <div class="mobile-info-divs mt-2 mt-lg-0 download-justro d-flex flex-column justify-content-center align-items-center">
+                    <div
+                        class="mobile-info-divs mt-2 mt-lg-0 download-justro d-flex flex-column justify-content-center align-items-center">
                         <span>یا از یکی از روشهای زیر اپلیکیشن جاسترو رو
                             دانلود کنید</span>
                     </div>
-                    <div id="download-btns" class="d-flex flex-column align-items-center sec-btns flex-lg-row justify-content-lg-center">
+                    <div id="download-btns"
+                        class="d-flex flex-column align-items-center sec-btns flex-lg-row justify-content-lg-center">
                         <button class="col-6 col-lg-3 d-flex flex-row align-items-center justify-content-center">
                             <span>
                                 <img class="logos" src="./assets/google-play.svg" alt="">
@@ -524,7 +530,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5 d-lg-none">
             <div id="ready-to-travel" class="col-12 no-padding">
                 <div id="ready-to-travel-bg" class="col-12 no-padding">
                     <img class="full-height col-12 no-padding" src="./assets/023_amadegisafar.jpg" alt="">
@@ -536,6 +542,33 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی.
                     </span>
                     <button class="primary-btns">
+                        <img class="logos" src="./assets/arrow-left.svg" alt="">
+                        آماده سفر شو
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- ++++++++++++++++++++++ -->
+        <div class="row mt-5 d-none d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+            <div id="desktop-travel-layout" class="col-12 no-padding">
+                <div id="desktop-travel-bg-box">
+                    <div id="green-opacity"></div>
+                </div>
+                <div id="travel-description-layout"
+                    class="d-lg-flex flex-lg-column align-items-lg-center">
+                    <div id="travel-info" class="col-9 full-height no-padding d-lg-flex flex-lg-column justify-content-lg-center align-items-lg-center">
+                        <h3>آمادگی سفر</h3>
+                        <br>
+                        <span>
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                            تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                            کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا
+                            با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو
+                            در زبان فارسی ایجاد کرد.
+                        </span>
+                    </div>
+                    <button id="ready-for-travel" class="primary-btns">
                         <img class="logos" src="./assets/arrow-left.svg" alt="">
                         آماده سفر شو
                     </button>

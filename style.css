@@ -658,4 +658,50 @@ button:focus{
         text-align: left;
         padding-left: 10%;
     }
+    #desktop-travel-layout{
+        position: relative;
+    }
+    #desktop-travel-bg-box{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        mask-image: url('./assets/022_bg_amadegisafar.svg');
+        background-image: url(./assets/023_amadegisafar.jpg);
+        background-size: cover;
+        background-position: center center;
+        -webkit-mask-image: url(./assets/022_bg_amadegisafar.svg);
+        -webkit-mask-size: 100%;
+        -webkit-mask-repeat: no-repeat;
+    }
+    #green-opacity{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; 
+        background-color: #003025;
+        -webkit-mask-image: url(./assets/022_bg_amadegisafar.svg);
+        -webkit-mask-size: 100%;
+        -webkit-mask-repeat: no-repeat;
+        opacity: 0.8;
+    }
+    #travel-description-layout{
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        bottom: 10%;
+    }
+    #travel-description-layout *{
+        color: white;
+    }
+    #travel-info{
+        position: relative;
+    }
+    #ready-for-travel{
+        position: absolute;
+        bottom: 0;
+        padding: 15px 25px;
+        border-radius: 50px;
+        border: none;
+    }
 }
